@@ -1,0 +1,3 @@
+doc = <<~'EOL'
+  string
+EOL

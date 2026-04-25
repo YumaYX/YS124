@@ -1,0 +1,1 @@
+`__dir__` is a built-in method in Ruby that returns the absolute path of the directory containing the source file in which it is called. It provides a convenient way to reference the current script's directory.

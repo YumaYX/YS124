@@ -1,0 +1,16 @@
+title: YS124
+description: Ruby Sample Script
+baseurl: "/YS124"
+url: ""
+github_username:  YumaYX
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - app.rb
+  - Makefile
+  - README.md
