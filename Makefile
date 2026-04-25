@@ -6,7 +6,6 @@ install:
 	bundle exec ruby app.rb
 
 pub:
-	-rm *index.markdown
 	git status
 	sleep 5
 	git add .
