@@ -17,7 +17,7 @@ def posts_content(ruby_script, path)
   #{ruby_script}
   ```
 
-  `Ruby v.#{RUBY_VERSION}`
+  `Ruby #{RUBY_VERSION}`
 
   RUBYPAGE
 end
