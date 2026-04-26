@@ -3,9 +3,10 @@ layout: default
 ---
 
 <section>
-<h2>ARTICLES</h2>
 
 <p>This is a collection of Ruby code snippets, including the results obtained from running them in irb. It can also be used as a cheat sheet.</p>
+
+<h2>ARTICLES</h2>
 
 {% assign sorted_categories = site.categories | sort %}
 <ul>
