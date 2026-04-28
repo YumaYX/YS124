@@ -6,16 +6,14 @@ layout: default
 
 <p>This is a collection of Ruby code snippets, including the results obtained from running them in irb. It can also be used as a cheat sheet.</p>
 
-<h2>ARTICLES</h2>
-
 {% assign sorted_categories = site.categories | sort %}
 <ul>
   {% for category in sorted_categories %}
     <li>
       <section>
-        <h3 id="{{ category[0] | slugify }}">
+        <h2 id="{{ category[0] | slugify }}">
           {{ category[0] | upcase }}
-        </h3>
+        </h2>
 
         {% assign posts = category[1] | sort: "title" %}
         <ul>
