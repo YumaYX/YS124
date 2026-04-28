@@ -1,0 +1,1 @@
+This script demonstrates RSA cryptography. It generates a key pair, encrypts a secret using the public key, and successfully decrypts the data using the private key.

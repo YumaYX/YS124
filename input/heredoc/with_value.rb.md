@@ -1,0 +1,1 @@
+This script demonstrates assigning a string to a variable and then embedding that variable's value using interpolation within a Ruby heredoc (`<<~EOL`). It successfully formats the content into a multi-line string.

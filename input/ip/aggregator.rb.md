@@ -1,0 +1,1 @@
+This script summarizes a list of IP addresses into optimal CIDR ranges and then converts these ranges into formatted strings suitable for an Access Control List.

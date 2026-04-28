@@ -1,0 +1,1 @@
+This script loads CSV data. It defines a `Family` class and iterates through the records, dynamically grouping child entries under their specified parent IDs, creating a hierarchical structure.

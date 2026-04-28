@@ -1,0 +1,1 @@
+This script writes a simple Ruby hash to a file named `file.json` in the specified directory, using the `json` library for serialization.

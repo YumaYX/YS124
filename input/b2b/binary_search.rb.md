@@ -1,0 +1,1 @@
+This script implements the classic binary search algorithm in Ruby. It efficiently determines the index of a target value within a pre-sorted array using iterative comparison.

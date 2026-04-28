@@ -1,0 +1,1 @@
+This script finds the common elements (intersection) between two arrays, demonstrating two methods in Ruby: using the `&` operator and the `find` method.

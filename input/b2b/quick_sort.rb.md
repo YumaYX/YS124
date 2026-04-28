@@ -1,0 +1,1 @@
+This script implements the Quick Sort algorithm. It sorts an array recursively by choosing a pivot, partitioning elements into two sub-arrays, and combining the sorted results.

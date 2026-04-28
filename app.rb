@@ -23,13 +23,13 @@ def irb_clean(str)
     line.sub(/\A(⢀|⣎|⣟).*\n/, '')
         .sub(/\A>>\s/, '')
         .sub(/\A\?> /, '')
-        .sub(/\A\"> /, '')
+        .sub(/\A"> /, '')
         .sub(/\A'> /, '')
         .sub(/\A\s@/, '# @')
         .sub(/\A=> \n?/, '#=> ')
         .sub(/\A\.\.\./, '#...')
         .sub(/\s{2}(end|\})\b*/, '\1')
-  end.join.sub!(/\A\n\n\n/,"").sub(/\n\n$/,"")
+  end.join.sub!(/\A\n\n\n/, '').sub(/\n\n$/, '')
 end
 
 require 'fileutils'
@@ -37,13 +37,17 @@ require 'ys1'
 FileUtils.rm_rf('_posts') if Dir.exist?('_posts')
 FileUtils.mkdir_p('_posts')
 
-def posts_content(ruby_script, path)
+def posts_content(ruby_script, path, markdown)
   _, b, = path.split('/')
   <<~RUBYPAGE
     ---
     layout: post
     category: #{b.downcase.gsub(/\s/, '')}
     ---
+
+    <small>This content was produced by an LLM and could include errors.</small>
+
+    #{markdown}
 
     ```ruby
     #{ruby_script}
@@ -59,12 +63,17 @@ def output_file_name(ruby_script)
   "_posts/2020-01-01-#{c}.markdown"
 end
 
-Dir.glob('input/*/*.rb').each do |path|
-  puts path
-  script = File.read(path)
-  irb_result = irb_execute(script)
-  outcome = irb_clean(irb_result)
+if __FILE__ == $PROGRAM_NAME
 
-  output_filename = output_file_name(path)
-  File.write(output_filename, posts_content(outcome, path))
+  Dir.glob('input/*/*.rb').each do |path|
+    puts path
+    script = File.read(path)
+    irb_result = irb_execute(script)
+    outcome = irb_clean(irb_result)
+
+    output_filename = output_file_name(path)
+    markdown = File.read("#{path}.md")
+    File.write(output_filename, posts_content(outcome, path, markdown))
+  end
+
 end

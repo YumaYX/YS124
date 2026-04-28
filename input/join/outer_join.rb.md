@@ -1,0 +1,1 @@
+This script maps user records to post records, enriching each user hash. It attempts to merge post details, defaulting the title to `nil` if no corresponding post is found for that user.

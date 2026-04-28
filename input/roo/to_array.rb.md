@@ -1,0 +1,1 @@
+This script uses the Roo gem to open an Excel file. It iterates through every row of a specified sheet, reading and storing the spreadsheet data into the `two_dimensional` array.

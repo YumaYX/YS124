@@ -1,0 +1,1 @@
+This script uses the Roo gem to open an Excel file. It accesses a specific sheet, reads cell data, and determines the sheet's maximum row and column dimensions, effectively inspecting the workbook structure.

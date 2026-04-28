@@ -1,0 +1,1 @@
+This script uses `product` to find the Cartesian product of three arrays. It systematically lists every unique combination possible from the elements of the provided arrays.

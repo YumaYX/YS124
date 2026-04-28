@@ -1,0 +1,1 @@
+This script implements a Binary Search Tree in Ruby. It demonstrates core operations: node creation, insertion, deletion, and traversal, using inorder methods to validate the structure.

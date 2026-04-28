@@ -1,0 +1,1 @@
+This script defines a `deprecate` method to intercept class methods. It redirects calls to the original function, printing a warning message to standard error before executing the aliased method.

@@ -1,0 +1,1 @@
+This script defines a function `sum(n)` that calculates the arithmetic series sum of all integers from 1 to $n$. It efficiently uses a `while` loop to determine the total sum.

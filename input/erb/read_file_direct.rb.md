@@ -1,0 +1,1 @@
+This script requires the ERB library to process an external HTML template file. It initializes the ERB object and then renders the template content using the current scope's variables, generating an HTML string.

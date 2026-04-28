@@ -1,0 +1,1 @@
+This script demonstrates using Ruby's `File.read` method within an IRB session to successfully retrieve and output all the plain text data from the specified file.

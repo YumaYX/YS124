@@ -1,0 +1,1 @@
+This script initializes `DOW_JP`, a constant array holding the Japanese names for the days of the week. It uses `map` and `freeze` to ensure both the array and all its elements are immutable.

@@ -1,0 +1,1 @@
+This script loads Ruby's built-in 'date' library. It then accesses the `Date::MONTHNAMES` constant, successfully printing an array containing all twelve full names of the months for developer reference.

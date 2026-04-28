@@ -1,0 +1,1 @@
+This script processes an array of records, printing the associated values from different fields in a structured, columnar format. It ensures values align based on the maximum length of the data arrays.

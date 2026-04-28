@@ -1,0 +1,1 @@
+This script provides a standard boilerplate wrapper. It executes the contained code block only when the file is run directly, preventing accidental execution during required library loading.

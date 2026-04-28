@@ -1,0 +1,1 @@
+This script fetches book metadata from the OpenBD API using an ISBN. It connects via HTTP, retrieves JSON data, and parses it into a usable Ruby structure.

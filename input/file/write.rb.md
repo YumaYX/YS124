@@ -1,0 +1,1 @@
+This script utilizes Ruby's `File.write` method to write the text 'Hello' into a specified file path. The output confirms successful writing of 5 bytes, indicating the operation completed without errors.

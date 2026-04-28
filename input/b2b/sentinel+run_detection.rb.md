@@ -1,0 +1,1 @@
+This script processes an array by counting consecutive non-empty strings. It prints the word and the total count when it reaches the next significant element or the 'END' marker in the sequence.

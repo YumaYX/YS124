@@ -1,0 +1,1 @@
+This script demonstrates capturing multi-line text. It uses `.lines` to split the string and `.map(&:chomp)` to effectively remove trailing newlines, resulting in a clean array.

@@ -1,0 +1,1 @@
+This script serializes a Ruby hash object into a binary format using `Marshal.dump` and writes the resulting byte stream to a specified file named `person.dat`.

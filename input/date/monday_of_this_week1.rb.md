@@ -1,0 +1,1 @@
+This script loads the Date library, determines the current date, and then calculates the date of the most recent Monday. It uses the `wday` method to accurately subtract the necessary days from the current date.

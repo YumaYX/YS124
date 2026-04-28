@@ -1,0 +1,1 @@
+This script reads a CSV file, treating the first row as headers. It iterates through every subsequent row, printing each corresponding key-value pair found in the structured data.

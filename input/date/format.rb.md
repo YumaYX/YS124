@@ -1,0 +1,1 @@
+This script captures the current time (`Time.now`) and then uses `strftime("%F")` to format and output a clean, standardized date string (YYYY-MM-DD).

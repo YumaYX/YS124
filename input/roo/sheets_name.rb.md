@@ -1,0 +1,1 @@
+This script uses the Roo gem to open an XLSX file. It then calls `xlsx.sheets` to successfully retrieve and display all available sheet names from the workbook.

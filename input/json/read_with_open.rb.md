@@ -1,0 +1,1 @@
+This script requires the JSON library, then opens 'file.json'. It uses `JSON.load` to efficiently parse the JSON content, converting the raw file string data into a usable Ruby hash.

@@ -1,0 +1,1 @@
+This script initializes a Ruby hash with a default value of zero. It demonstrates how this technique allows safe and automatic incrementing of counts for new keys.

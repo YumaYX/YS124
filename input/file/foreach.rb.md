@@ -1,0 +1,1 @@
+This script compares lines from two files using nested loops. It checks every line against the other file, printing "MATCHED:" for all common entries found.

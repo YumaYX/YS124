@@ -1,0 +1,1 @@
+This script loads the JSON library and reads an external file. It then parses the JSON data from `file.json`, converting the raw text into a navigable Ruby hash object.

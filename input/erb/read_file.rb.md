@@ -1,0 +1,1 @@
+This script uses ERB to read an HTML template, defines a variable, and then executes the template. It successfully renders the variable's value into the resulting HTML string.

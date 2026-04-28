@@ -1,0 +1,1 @@
+This script generates an array listing virtually every printable ASCII character. It utilizes Ruby's Range functionality to capture all symbols from space (" ") through the tilde ("~").

@@ -1,0 +1,1 @@
+This script demonstrates the `$stdin.read` method within an IRB session. It attempts to read all data from standard input. Because no input was provided during execution, the method correctly returns `nil`.
