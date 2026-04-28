@@ -17,7 +17,7 @@ def irb_execute(ruby_script)
 end
 
 def irb_clean(str)
-  str.sub!(/^Switch to inspect mode./, '')
+  str.sub!(/\ASwitch to inspect mode./, '')
 
   str.lines.map do |line|
     line.sub(/\A(⢀|⣎|⣟).*\n/, '')
@@ -28,7 +28,7 @@ def irb_clean(str)
         .sub(/\A=> \n?/, '#=> ')
         .sub(/\A\.\.\./, '#...')
         .sub(/\s{2}(end|\})\b*/, '\1')
-  end.join
+  end.join.sub!(/\A\n\n\n/,"").sub(/\n\n$/,"")
 end
 
 require 'fileutils'
