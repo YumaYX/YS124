@@ -5,9 +5,9 @@ require_relative 'app'
 
 def build_prompt(ruby_script)
   <<~EOLPROMPT
-   explain the Ruby script briefly, in 25 words. start with: This script...
-    ---
-    #{ruby_script}
+    explain the Ruby script briefly, in 25 words. start with: This script...
+     ---
+     #{ruby_script}
   EOLPROMPT
 end
 

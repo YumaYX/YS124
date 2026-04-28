@@ -1,6 +1,9 @@
 s:	install
 	bundle exec jekyll server -H 0.0.0.0 -P 4124
 
+genmd:
+	ruby rb2md.rb
+
 install:
 	bundle install
 	bundle exec ruby app.rb
