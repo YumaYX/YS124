@@ -1,1 +1,1 @@
-This script demonstrates capturing multi-line text. It uses `.lines` to split the string and `.map(&:chomp)` to effectively remove trailing newlines, resulting in a clean array.
+This script stores multiline text, then uses `.lines.map(&:chomp)` to efficiently convert the string into a clean array of individual strings, removing trailing newlines.

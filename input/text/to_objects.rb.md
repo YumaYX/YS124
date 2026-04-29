@@ -1,1 +1,1 @@
-This script loads CSV data. It defines a `Family` class and iterates through the records, dynamically grouping child entries under their specified parent IDs, creating a hierarchical structure.
+This script reads CSV data and organizes records into `Family` objects. It processes flat data by grouping associated children, assigning them either to a specified parent or to the most recently created family.

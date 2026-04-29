@@ -1,1 +1,1 @@
-This script utilizes Ruby's `digest/md5` library. It demonstrates calculating the unique hexadecimal MD5 hash for a hardcoded string and an entire physical file.
+This script demonstrates MD5 hashing using Ruby's `digest` library. It calculates and outputs the hexadecimal hashes for a sample string and a specified local file.

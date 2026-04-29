@@ -1,1 +1,1 @@
-This script dynamically generates a Ruby class structure from a hash. It uses `attr_accessor` to define methods and sets up the class's initializer to store data.
+This script dynamically creates a new Ruby class using `Class.new`. It populates this class with attributes and an initializer based on the keys and values of a provided hash.

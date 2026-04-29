@@ -1,1 +1,1 @@
-This script reads a binary, serialized object from a file. It then utilizes `Marshal.load` to deserialize the data, successfully reconstructing the raw byte stream into a usable, structured Ruby Hash.
+This script reads a serialized object from a file. It then uses `Marshal.load` to deserialize the binary data, successfully reconstructing the object into a readable Ruby Hash.

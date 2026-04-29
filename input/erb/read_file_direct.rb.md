@@ -1,1 +1,1 @@
-This script requires the ERB library to process an external HTML template file. It initializes the ERB object and then renders the template content using the current scope's variables, generating an HTML string.
+This script requires the ERB library, loads an HTML template file, and then executes the template using `result(binding)` to process variables and generate final HTML content.

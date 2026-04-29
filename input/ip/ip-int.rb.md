@@ -1,1 +1,1 @@
-This script converts an IPv4 dotted-decimal string into a 32-bit integer representation. It demonstrates extracting the four constituent octets using bitwise shifting, and rebuilding the original IP string.
+This script demonstrates converting an IPv4 address string into a 32-bit integer using packing and unpacking. It then extracts and reconstructs the individual octets using bitwise shifting.

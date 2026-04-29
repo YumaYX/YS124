@@ -1,1 +1,1 @@
-This script initializes a Ruby hash with a default value of zero. It demonstrates how this technique allows safe and automatic incrementing of counts for new keys.
+This script demonstrates creating a specialized hash using `Hash.new(0)`. It allows safely incrementing key values by automatically initializing any missing keys to zero.

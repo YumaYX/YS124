@@ -1,1 +1,1 @@
-This script defines a function `sum(n)` that calculates the arithmetic series sum of all integers from 1 to $n$. It efficiently uses a `while` loop to determine the total sum.
+This script defines a method that calculates the sum of all integers from 1 up to the given number. Executing `sum(10)` correctly outputs the sum of 1 through 10, which is 55.

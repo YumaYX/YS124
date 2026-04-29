@@ -1,1 +1,1 @@
-This script uses Ruby's `ipaddr` gem to demonstrate how applying 33 different subnet masks (from /32 to /0) calculates and displays a sequence of network addresses.
+This script uses `ipaddr` to calculate and print network masks. It iterates 33 times, demonstrating how subnet masks are progressively generated, ranging from /32 down to /0.

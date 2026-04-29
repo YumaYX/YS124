@@ -1,1 +1,1 @@
-This script reads all lines from a file into an array. It then uses `map(&:chomp)` to efficiently iterate over the lines, removing the trailing newline characters from every string element.
+This script reads all lines from a specified file, then uses `map(&:chomp)` to process the array, effectively removing any trailing newline characters from each string.

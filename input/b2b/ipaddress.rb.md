@@ -1,1 +1,1 @@
-This script defines Ruby functions for handling IPv4 networking. It validates IP addresses and subnet masks, and includes methods to accurately convert between subnet mask formats and CIDR notation.
+This script implements Ruby functions to validate IPv4 addresses and subnet masks. It also provides utilities to convert between subnet masks and CIDR notations, demonstrating robust networking checks.

@@ -1,1 +1,1 @@
-This script demonstrates using Ruby's heredoc (`<<~'EOL'`) syntax within the IRB interpreter. It successfully captures and assigns the multiline string content to the variable `doc`, confirming string assignment.
+This script demonstrates using a Ruby heredoc (`<<~'EOL'`) to capture and assign a multi-line string literal. It stores the formatted text, `"string\n"`, into the variable `doc`.

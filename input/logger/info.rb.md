@@ -1,1 +1,1 @@
-This script initializes the Ruby Logger, setting the minimum level to INFO. It outputs WARN and INFO messages, effectively suppressing lower-level DEBUG logs according to the configured severity.
+This script initializes the Ruby Logger to STDOUT, setting the minimum output level to INFO. It demonstrates logging WARN and INFO messages while effectively suppressing lower-severity DEBUG messages.

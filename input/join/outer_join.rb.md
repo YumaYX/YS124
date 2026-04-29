@@ -1,1 +1,1 @@
-This script maps user records to post records, enriching each user hash. It attempts to merge post details, defaulting the title to `nil` if no corresponding post is found for that user.
+This script merges user data with corresponding post data. It iterates through all users, finds matching posts by ID, and adds the post's title to each user record, ensuring completeness.

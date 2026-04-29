@@ -1,1 +1,1 @@
-This script loads the JSON library, creates a sample hash, and then serializes the Ruby data into a formatted JSON string, writing it to a file named `file.json`.
+This script requires the JSON library. It converts a simple Ruby hash into a structured JSON string and successfully writes the data to a specified file.

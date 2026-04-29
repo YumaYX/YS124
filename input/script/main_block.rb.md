@@ -1,1 +1,1 @@
-This script provides a standard boilerplate wrapper. It executes the contained code block only when the file is run directly, preventing accidental execution during required library loading.
+This script implements the common Ruby structure using `if __FILE__ == $PROGRAM_NAME`. It ensures that the contained main logic only executes when the file is run directly, rather than being required by another file.

@@ -1,1 +1,1 @@
-This script demonstrates using the interactive Ruby shell (IRB). By querying the built-in `__FILE__` variable, the interpreter returns a string indicating the current scope is "(irb)".
+This script... is an interactive Ruby session (IRB). It demonstrates the use of the built-in variable `__FILE__`, which reports the current execution context, showing the shell environment.

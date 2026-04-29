@@ -1,1 +1,1 @@
-This script processes an array by counting consecutive non-empty strings. It prints the word and the total count when it reaches the next significant element or the 'END' marker in the sequence.
+This script processes an array, grouping non-empty words. It counts the number of elements in each group and prints the corresponding word (label) and the final count.

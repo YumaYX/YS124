@@ -1,1 +1,1 @@
-This script demonstrates using Ruby's `File.read` method within an IRB session to successfully retrieve and output all the plain text data from the specified file.
+This script uses `File.read` within the IRB console to access and read the entire text content of the specified file ('filewr.txt'), successfully outputting its contents as a string.

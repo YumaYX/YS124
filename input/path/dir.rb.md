@@ -1,1 +1,1 @@
-This script shows an interactive Ruby (IRB) session. Executing `__dir__` accesses a special method that reports the current working directory, as confirmed by the return value, `=> "."`.
+This script demonstrates an interactive Ruby session. It executes the built-in `__dir__` method to check and confirm the current working directory path within the program's environment.

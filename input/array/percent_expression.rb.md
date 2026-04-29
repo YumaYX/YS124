@@ -1,1 +1,1 @@
-This script demonstrates Ruby's array construction methods (`%w`, `%W`, `%i`, `%I`). It illustrates how these methods handle string interpolation and determine whether elements become words, literals, or symbols.
+This script demonstrates various Ruby methods (`%w`, `%i`, etc.) for generating arrays and symbols. It illustrates how string interpolation affects the resulting data types and values when mixing literal and dynamic arguments.

@@ -1,1 +1,1 @@
-This script analyzes a CSV file, indexing unique records using a specified key column. It then checks for and reports the location or duplication status of predefined target keys within the dataset.
+This script reads a CSV file, indexing unique records by a specified key. It then checks a list of target keys to detect duplicates and retrieve associated data entries from the dataset.

@@ -1,1 +1,1 @@
-This script initializes a Ruby logger. By setting `logger.level = Logger::WARN`, it filters log outputs, ensuring only warning messages are displayed, while hiding lower severity logs.
+This script initializes the Ruby `Logger` class and demonstrates level filtering. By setting the logger's level to `WARN`, it successfully outputs warning messages while silently ignoring lower-severity info and debug entries.

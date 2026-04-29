@@ -1,1 +1,1 @@
-This script finds the common elements (intersection) between two arrays, demonstrating two methods in Ruby: using the `&` operator and the `find` method.
+This script finds the common element between two Ruby arrays, `a` and `b`. It demonstrates two methods—using the intersection operator (`&`) and the `find` method—both successfully locating the shared value, `"l9ma"`.

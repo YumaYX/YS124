@@ -1,1 +1,1 @@
-This script uses `product` to find the Cartesian product of three arrays. It systematically lists every unique combination possible from the elements of the provided arrays.
+This script demonstrates the Cartesian product using `Array#product`. It efficiently generates all possible combinations (tuples) by combining elements from three separate input arrays.

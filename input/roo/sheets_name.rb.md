@@ -1,1 +1,1 @@
-This script uses the Roo gem to open an XLSX file. It then calls `xlsx.sheets` to successfully retrieve and display all available sheet names from the workbook.
+This script uses the `roo` gem to load an Excel file. It initializes the workbook object and then executes the `sheets` method, successfully listing the names of all available tabs.

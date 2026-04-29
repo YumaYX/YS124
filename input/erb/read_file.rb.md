@@ -1,1 +1,1 @@
-This script uses ERB to read an HTML template, defines a variable, and then executes the template. It successfully renders the variable's value into the resulting HTML string.
+This script uses the ERB library to process an HTML template file. It injects the variable `@val` into the template, generating the final rendered HTML string dynamically.

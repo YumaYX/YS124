@@ -1,1 +1,1 @@
-This script defines a method to check if a given URL is reachable. It uses Ruby's `Net::HTTP` to send a GET request and determines if the response code indicates success (200-299).
+This script defines a Ruby method to test if a given URI returns a successful (2xx) HTTP status code. It utilizes the `Net::HTTP` library to perform a GET request and check the response code.

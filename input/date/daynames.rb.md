@@ -1,1 +1,1 @@
-This script loads the built-in Ruby `date` library. It then accesses the `Date::DAYNAMES` constant, successfully displaying an array containing all seven full names for the days of the week.
+This script loads the standard Ruby 'date' library. It then accesses `Date::DAYNAMES`, printing an array containing all seven full names of the days of the week.

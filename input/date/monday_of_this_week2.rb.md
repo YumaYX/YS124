@@ -1,1 +1,1 @@
-This script captures the current timestamp. It then utilizes Ruby's `wday` method and arithmetic to calculate and display the precise date and time of the preceding Monday.
+This script captures the current time and calculates the exact timestamp for the previous Monday. It uses Ruby's `Time` methods and day-of-week arithmetic for precise date determination.

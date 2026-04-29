@@ -1,1 +1,1 @@
-This script defines a `deprecate` method to intercept class methods. It redirects calls to the original function, printing a warning message to standard error before executing the aliased method.
+This script implements a `deprecate` method on `Module`, using metaprogramming to dynamically wrap methods. It automatically issues a runtime warning when an outdated class method is called.

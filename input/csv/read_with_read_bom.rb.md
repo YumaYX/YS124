@@ -1,1 +1,1 @@
-This script uses Ruby's CSV library to read a specified CSV file. It handles complex encoding (BOM/UTF-8) and converts the structured rows into a convenient array of standard Ruby hashes.
+This script uses Ruby's CSV library to read a specified file. It handles complex encoding, interprets headers, and efficiently converts all rows into an array of usable Ruby hashes.

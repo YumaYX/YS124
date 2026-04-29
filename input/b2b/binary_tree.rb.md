@@ -1,1 +1,1 @@
-This script implements a Binary Search Tree in Ruby. It demonstrates core operations: node creation, insertion, deletion, and traversal, using inorder methods to validate the structure.
+This script defines a Binary Search Tree (BST) in Ruby. It includes methods to construct, insert, delete, and perform inorder traversal on the self-balancing tree structure.
