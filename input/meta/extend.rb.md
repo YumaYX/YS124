@@ -1,0 +1,1 @@
+This script demonstrates how `extend` mixes Module A's attributes into Module B. This mixing mechanism allows Module B to access and set properties defined in the external module A.
