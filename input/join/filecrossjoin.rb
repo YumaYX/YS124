@@ -4,7 +4,7 @@ end
 
 arrays = ARGV.map { |path| read_lines(path) }
 
-abort "Please specify at least one file." if arrays.empty?
+#abort "Please specify at least one file." if arrays.empty?
 
 first, *rest = arrays
 
