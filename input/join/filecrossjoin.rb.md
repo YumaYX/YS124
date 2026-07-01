@@ -1,0 +1,1 @@
+This script reads lines from one or more input files and generates their Cartesian product using "Array#product". The input files are specified via command-line arguments, allowing any number of files to be combined. Each generated combination is processed one at a time through a block, making the script memory-efficient even for large outputs.
