@@ -1,1 +1,1 @@
-This script reads lines from one or more input files and generates their Cartesian product using "Array#product". The input files are specified via command-line arguments, allowing any number of files to be combined. Each generated combination is processed one at a time through a block, making the script memory-efficient even for large outputs.
+This script processes command-line arguments, reading multiple text files and then combining the corresponding lines into a single, comma-separated output stream, effectively creating tabular data from various sources.
