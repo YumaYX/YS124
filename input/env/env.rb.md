@@ -1,0 +1,1 @@
+This script demonstrates the `||=` operator in Ruby. It checks if an environment variable named 'hello' is set. If it is not defined, the code assigns a default value of "hallo," ensuring the variable always holds a string.
