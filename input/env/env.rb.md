@@ -1,1 +1,1 @@
-This script demonstrates the `||=` operator in Ruby. It checks if an environment variable named 'hello' is set. If it is not defined, the code assigns a default value of "hallo," ensuring the variable always holds a string.
+This script demonstrates Ruby's `||=` operator with an environment variable. `ENV` is a hash-like object that provides access to the process's environment variables. The script checks whether the `hello` environment variable is set, and if it is not, assigns the default value `"hallo"`.
