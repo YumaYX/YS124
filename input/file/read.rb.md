@@ -1,1 +1,1 @@
-This script uses `File.read` within the IRB console to access and read the entire text content of the specified file ('filewr.txt'), successfully outputting its contents as a string.
+このスクリプトは `File.read` による一括読み込みの最小例です。ファイルの全内容が1つの文字列として返り、ここでは `"Hello"` が得られます。手軽な反面、巨大ファイルではメモリを消費するため、行単位なら foreach / readlines が適しています。

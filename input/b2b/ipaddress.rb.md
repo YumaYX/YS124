@@ -1,1 +1,1 @@
-This script implements Ruby functions to validate IPv4 addresses and subnet masks. It also provides utilities to convert between subnet masks and CIDR notations, demonstrating robust networking checks.
+このスクリプトはIPv4ユーティリティ集です。`mask_to_cidr` はマスクの1ビット数を数えてCIDRへ変換し(`255.255.255.0` → `24`)、`cidr_to_mask` は逆変換を行います。`ip_address?` は4オクテット・数値のみ・0〜255・先頭ゼロ禁止を検証し、`subnet_mask?` はビット列が「1の連続の後に0」となる形式か確認します。`network_address?` はホスト部ビットがすべて0かどうかでネットワークアドレスを判定します。

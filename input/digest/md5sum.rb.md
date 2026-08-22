@@ -1,1 +1,1 @@
-This script demonstrates MD5 hashing using Ruby's `digest` library. It calculates and outputs the hexadecimal hashes for a sample string and a specified local file.
+このスクリプトはMD5ダイジェストの2つの求め方を示します。`Digest::MD5.hexdigest("ruby")` は文字列から32桁の16進ハッシュを直接計算し、`Digest::MD5.file(path)` はファイルを少しずつ読みながら計算するため巨大ファイルにも向きます。MD5は改ざん検出向けで、セキュリティ用途には推奨されません。

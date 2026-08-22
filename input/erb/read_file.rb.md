@@ -1,1 +1,1 @@
-This script uses the ERB library to process an HTML template file. It injects the variable `@val` into the template, generating the final rendered HTML string dynamically.
+このスクリプトはERBテンプレート処理の標準的な流れです。`ERB.new` で `file.html.erb` をコンパイルし、インスタンス変数 `@val = 'val'` を設定したうえで `result(binding)` を呼ぶと、テンプレート中の `<%= @val %>` が評価され `<p>val</p>` を含むHTML文字列が生成されます。テンプレートへ値を渡すには binding の受け渡しが鍵になります。

@@ -1,1 +1,1 @@
-This script creates a Ruby hash. It uses `Marshal.dump` to serialize the hash into a binary format, then writes that serialized data to the `person.dat` file.
+このスクリプトはMarshalによる永続化(シリアライズ)です。ハッシュ `{name: "Alice", age: 30}` を `Marshal.dump` でRuby固有のバイナリ形式へ変換し、バイナリモード `'wb'` で開いた person.dat へ書き込みます。deserialization.rb と対になるスクリプトです。

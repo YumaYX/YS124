@@ -1,1 +1,1 @@
-This script loads the 'date' library and accesses the `Date::MONTHNAMES` constant. This reveals a built-in Ruby array containing the names of the twelve months in order.
+このスクリプトは `Date::MONTHNAMES` を参照し、`[nil, "January", ..., "December"]` の配列を取得します。先頭が nil のため添字がそのまま月番号(1〜12)に対応し、`Date::MONTHNAMES[date.month]` のように使えます。

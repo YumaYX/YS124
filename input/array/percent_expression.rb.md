@@ -1,1 +1,1 @@
-This script demonstrates various Ruby methods (`%w`, `%i`, etc.) for generating arrays and symbols. It illustrates how string interpolation affects the resulting data types and values when mixing literal and dynamic arguments.
+このスクリプトは `%w`(単語配列)・`%W`・`%i`(シンボル配列)・`%I` の違いを示します。小文字の `%w`/`%i` は式展開されず `"#{str}"` がリテラルのまま要素になり、大文字の `%W`/`%I` は変数 str の値が展開されて `"ruby"`・`:ruby` になります。つまり大文字版だけがダブルクオート内の補間を有効にします。

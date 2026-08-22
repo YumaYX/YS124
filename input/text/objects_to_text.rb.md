@@ -1,1 +1,1 @@
-This script processes array data, dynamically creating a clean, tab-separated table output that handles differing lengths for all columns within the structured data.
+このスクリプトはオブジェクト配列からタブ区切りテキストを整形出力します。最初の要素のキーからヘッダー行を作り、val1/val2 の配列長のうち長い方に合わせて行を生成します。足りない列は空文字で埋め、id 列は各エントリの先頭行のみ出力するため、group.csv 形式のような親子構造テキストが作れます。

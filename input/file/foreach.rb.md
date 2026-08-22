@@ -1,1 +1,1 @@
-This script compares lines from two input files using nested loops. It efficiently searches for and prints every line that is identical (a match) between the two specified text files.
+このスクリプトは `File.foreach` の入れ子ループで2つのテキストファイルを突き合わせ、完全一致する行を見つけるたび `MATCHED: ...` を出力します(b.txt の 9, 2, 6 が該当)。foreach は1行ずつ読むため readlines よりメモリ効率が良く、内側ループの `break` により外側の各行は最初の一致で打ち切られます。比較には改行コードを含む文字列がそのまま使われます。

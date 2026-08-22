@@ -1,1 +1,1 @@
-This script demonstrates the IRB shell environment. It executes `$stdin.read`, which captures all standard input. Since nothing was piped or entered for reading, the function correctly returns `nil`.
+このスクリプトは標準入力をEOFまでまとめて読む `$stdin.read` の使用例ですが、実行文はコメントアウトされています。有効化すると入力終了(Ctrl-D 等)までブロックして読み続け、読み取った全内容を1つの文字列として返します(入力なしなら空文字)。パイプ入力を受け取るスクリプトの雛形です。

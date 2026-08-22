@@ -1,1 +1,1 @@
-This script loads the Date library, capturing today's date and then calculating the date of the most recent preceding Monday.
+このスクリプトはDate版の週初め計算です。`today.wday`(0=日〜6=土)を使い `today - today.wday + 1` で今週月曜日のDateオブジェクトを求めます。日曜日に実行した場合は翌日の月曜(ISO週の考え方)を指します。

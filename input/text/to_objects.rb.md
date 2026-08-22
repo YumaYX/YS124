@@ -1,1 +1,1 @@
-This script reads CSV data and organizes records into `Family` objects. It processes flat data by grouping associated children, assigning them either to a specified parent or to the most recently created family.
+このスクリプトは親子構造のCSV(group.csv)を読み込んでオブジェクトへ組み立てます。parent が入力されている行で Family オブジェクトを新規作成し、parent が空欄の child 行は `arr.last.children` へ追加していきます。結果として arr には id1〜id3 の3家族が children 配列つきで格納され、フラットなCSVから階層データを作る典型例となっています。

@@ -1,1 +1,1 @@
-This script opens and processes a CSV file, treating the first row as headers. It then iterates through each subsequent record, printing every associated key-value pair found.
+このスクリプトは `File.open` で開いたIOを `CSV.new(f, headers: true)` に渡し、先頭行をヘッダーとして解析します。各行(CSV::Row)に対して `each` でヘッダー名と値のペアを順に出力し、行間に空行を挟みます。パーサーを明示的に生成して使い回す場合の基本形です。

@@ -1,1 +1,1 @@
-This script demonstrates file handling in Ruby's IRB. It uses `File.write` to create or overwrite the file 'filewr.txt', successfully writing the text "Hello" into that specific path.
+このスクリプトは `File.write` による一括書き込みの最小例です。ファイルが無ければ作成、あれば内容を切り詰めたうえで `"Hello"` を書き込み、戻り値として書き込んだバイト数(5)を返します。open/close を明示しない手軽な方法です。追記したい場合は File.open の "a" モードを使います。

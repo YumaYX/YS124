@@ -1,1 +1,1 @@
-This script generates and prints an array containing all printable ASCII characters, effectively listing every symbol, number, and letter between a space and the tilde character.
+このスクリプトは文字Range `(" ".."~")` を配列化し、ASCII印字可能文字(コード0x20の空白〜0x7Eのチルダ)95種を一覧化します。文字コード表の生成や入力バリデーションの母集合づくりなどに利用できます。

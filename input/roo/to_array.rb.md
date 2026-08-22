@@ -1,1 +1,1 @@
-This script uses the `roo` gem to read data from an Excel file. It processes the "mysheet" and efficiently loads all row data into a two-dimensional Ruby array.
+このスクリプトは roo でシート全体を二次元配列へ取り込みます。`sheet('mysheet')` を `each` で回すと1行が1つの配列(セル値の並び)として得られるため、two_dimensional へ行を順に蓄積すれば、以降は通常のRuby配列として自由に加工できます。

@@ -1,1 +1,1 @@
-This script demonstrates RSA encryption. It generates a key pair, encrypts a secret message using the public key, and successfully decrypts the data using the corresponding private key.
+このスクリプトはRSA暗号の基本的な往復処理です。`OpenSSL::PKey::RSA.generate(2048)` で鍵ペアを生成し、公開鍵の `public_encrypt` で秘密 `"Ruby"` を暗号化した後、対応する秘密鍵の `private_decrypt` で復号して元の文字列を復元します。公開鍵で暗号化したデータは対応する秘密鍵でのみ読める、という非対称暗号の要点を確認できます。

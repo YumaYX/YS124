@@ -1,1 +1,1 @@
-This script... is an interactive Ruby session (IRB). It demonstrates the use of the built-in variable `__FILE__`, which reports the current execution context, showing the shell environment.
+このスクリプトは特殊変数 `__FILE__` の確認用です。実行に使われたソースファイルのパス(与えられたままの相対/絶対パス)を返し、IRB内では `(irb)` となります。`File.dirname(__FILE__)` や `__dir__` と組み合わせて使われることが多いです。

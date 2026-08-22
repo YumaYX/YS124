@@ -1,1 +1,1 @@
-This script uses Ruby's CSV library to read a specified file. It handles complex encoding, interprets headers, and efficiently converts all rows into an array of usable Ruby hashes.
+このスクリプトはBOM付きUTF-8ファイルへの対応例です。`encoding: "BOM|UTF-8"` を指定するとBOMの有無を自動判別して読み飛ばすため、Excel由来のCSVでも先頭ヘッダーが汚れません。`headers: true` + `map(&:to_h)` により全行がハッシュの配列(ここでは3件)へ変換されます。

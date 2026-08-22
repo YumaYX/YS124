@@ -1,1 +1,1 @@
-This script creates and freezes a constant array called DOW_JP. It populates this array with the seven Japanese characters representing the days of the week, ensuring the data structure is immutable.
+このスクリプトは日本語の曜日漢字 `%w[日 月 火 水 木 金 土]` から定数 `DOW_JP` を作成します。`map(&:freeze).freeze` で各文字列と配列自身を凍結し、誤って破壊的変更されない定数としています。添字0が「日」で wday と整合します。

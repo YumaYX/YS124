@@ -1,1 +1,1 @@
-This script defines and uses a recursive `quick_sort` function in Ruby, which efficiently sorts an array by selecting a pivot and recursively sorting the remaining elements.
+このスクリプトはクイックソートです。先頭要素をピボットとして残りを「小さい左グループ」「大きい右グループ」へ振り分け、各グループを再帰的にソートして `[pivot]` を挟んで結合します。バラバラの `[5,3,...,1]` が昇順 `[0..9]` に整列します。`shift` でピボットを取り除くため、元の配列は空になる点に注意してください。

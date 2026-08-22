@@ -1,1 +1,1 @@
-This script demonstrates Ruby string handling. It assigns a variable, then uses a heredoc (`<<~EOL`) to embed that variable's content into a multi-line string format, successfully capturing the value.
+このスクリプトは式展開つきヒアドキュメントの例です。識別子 `EOL` を引用符で囲まないため `#{value}` が評価され、あらかじめ代入した `"ruby"` が埋め込まれた `"ruby\n"` が doc に入ります。plain_text.rb(`<<~'EOL'`)との違いは展開の有無だけです。

@@ -1,1 +1,1 @@
-This script captures the current time and calculates the exact timestamp for the previous Monday. It uses Ruby's `Time` methods and day-of-week arithmetic for precise date determination.
+このスクリプトはTime版の週初め計算です。`(wday - 1) * 24 * 60 * 60` 秒を引いて直近の月曜のタイムスタンプを得ます。ただし日曜実行時は前週の土曜になる、夏時間切替時は時刻がずれる等のエッジケースがある点に注意してください。

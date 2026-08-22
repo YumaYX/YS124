@@ -1,1 +1,1 @@
-This script stores multiline text, then uses `.lines.map(&:chomp)` to efficiently convert the string into a clean array of individual strings, removing trailing newlines.
+このスクリプトはヒアドキュメント(`<<~TEXT`)で複数行テキストを作成し、`.lines` で行ごとの配列 `["a\n", "b\n", "c\n"]` に分解した後、`map(&:chomp)` で末尾の改行を取り除いた `["a", "b", "c"]` を得ます。テキストを行単位で処理する際の定石です。

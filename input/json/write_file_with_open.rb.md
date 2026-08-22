@@ -1,1 +1,1 @@
-This script loads the JSON library, defines a sample Ruby hash, and then efficiently serializes that hash into JSON format, writing the resulting data structure to `file.json`.
+このスクリプトはJSONファイルへの書き込み方法の1つです。`File.open(..., 'w')` のブロック内で `JSON.dump(hash, f)` を呼び、シリアライズ結果をIOへ直接書き出します。ブロックを抜ければファイルは自動的に閉じられます。

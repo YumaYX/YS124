@@ -1,1 +1,1 @@
-This script demonstrates how `extend` mixes Module A's attributes into Module B. This mixing mechanism allows Module B to access and set properties defined in the external module A.
+このスクリプトは `extend` による特異クラスへのミックスインです。モジュールBがモジュールAを extend すると、A の `attr_accessor :abc` がBの特異メソッドとして生え、`B.abc = 123` / `B.abc` というモジュール単位の読み書き(実体はBオブジェクトの@abc)が可能になります。クラスメソッド的なDSLを作る基礎テクニックで、include との違い(オブジェクト単位 vs クラス単位)を理解するのに適しています。

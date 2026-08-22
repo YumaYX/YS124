@@ -1,1 +1,1 @@
-This script summarizes a list of IP addresses into the smallest possible CIDR blocks, then converts those blocks into standard Access Control List (ACL) format.
+このスクリプトはIPアドレスリストの集約ツールです。`summarize_ips` は重複排除・整数ソート後、連続するアドレスを `chunk_while` で1つの範囲にまとめ、`largest_block` が可能な限り大きい整列ブロックを貪欲に選んでCIDR列へ展開します。例では `192.168.1.0` と `.1` が `/31` の1ブロックに要約されます。`cidrs_to_acl` は `/32` を `host xxx` 表記へ、それ以外をネットマスク表記へ変換します。

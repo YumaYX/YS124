@@ -1,1 +1,1 @@
-This script initializes the JSON library, reads data from `file.json`, and uses `JSON.load` to successfully parse the file content into a usable Ruby Hash object.
+このスクリプトはJSON読み込みの別解です。`File.open` のブロック引数として得たIOオブジェクトを `JSON.load(j)` にそのまま渡してパースします。文字列化を経由せず直接読めるうえ、ブロック終了時にファイルが確実に閉じられるのが利点です。結果は `{"key" => "value"}` のハッシュになります。

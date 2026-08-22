@@ -1,1 +1,1 @@
-This script demonstrates creating a specialized hash using `Hash.new(0)`. It allows safely incrementing key values by automatically initializing any missing keys to zero.
+このスクリプトは `Hash.new(0)` によるデフォルト値付きハッシュの例です。存在しないキーの参照が nil ではなく 0 を返すため、いきなり `hash['key'] += 1` してもエラーにならず、カウンタや集計処理を簡潔に書けます。キーがハッシュへ登録されるのは代入時で、参照だけでは登録されません。

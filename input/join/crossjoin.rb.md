@@ -1,1 +1,1 @@
-This script demonstrates the Cartesian product using `Array#product`. It efficiently generates all possible combinations (tuples) by combining elements from three separate input arrays.
+このスクリプトは `Array#product` による直積(クロス結合)です。3文字 × 2数値 × 1ハッシュの配列を掛け合わせ、`["a", 0, {}]` のような6通りのタプルを一度に生成します。SQLの CROSS JOIN 相当を純粋な配列操作で実現できます。

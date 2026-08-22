@@ -1,1 +1,1 @@
-This script dynamically creates a new Ruby class using `Class.new`. It populates this class with attributes and an initializer based on the keys and values of a provided hash.
+このスクリプトはメタプログラミングでハッシュからクラスを動的生成します。`Class.new` のブロック内で各キーへ `attr_accessor` を定義し、`define_method(:initialize)` のクロージャでハッシュの値をインスタンス変数へセットします。生成したオブジェクトから name / age / city が参照でき、Struct を自前実装するようなイメージです。

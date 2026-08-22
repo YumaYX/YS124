@@ -1,1 +1,1 @@
-This script defines a Ruby method to test if a given URI returns a successful (2xx) HTTP status code. It utilizes the `Net::HTTP` library to perform a GET request and check the response code.
+このスクリプトはURLの生存確認メソッド `rc2xx?` を定義します。URI.parse で分解したホスト・ポートに対し Net::HTTP でGETリクエストを送り、https スキーマなら SSL を有効化します。レスポンスコードが200以上300未満のときだけ true を返し(例のサイトでは true)、接続失敗やリダイレクトは考慮していない点に注意してください。

@@ -1,1 +1,1 @@
-This script loads the JSON library and reads a local file. It then parses the JSON data, converting the file's contents into a usable Ruby hash.
+このスクリプトはJSON読み込み方法の1つです。`File.read` で全文を文字列化してから `JSON.load` に渡し、`{"key" => "value"}` というハッシュへ変換します。load はIOオブジェクトも直接受け付けます(read_with_open.rb 参照)。

@@ -1,1 +1,1 @@
-This script reads a serialized object from a file. It then uses `Marshal.load` to deserialize the binary data, successfully reconstructing the object into a readable Ruby Hash.
+このスクリプトはMarshalによる復元(デシリアライズ)です。serialization.rb が書き出したバイナリファイル person.dat を `File.read` で読み込み、`Marshal.load` で保存時のハッシュ `{name: "Alice", age: 30}` として再構築します。Marshalデータは任意オブジェクトを復元できるため、信頼できない発生源からの読み込みは危険な点に注意してください。

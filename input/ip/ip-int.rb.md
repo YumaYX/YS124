@@ -1,1 +1,1 @@
-This script demonstrates converting an IPv4 address string into a 32-bit integer using packing and unpacking. It then extracts and reconstructs the individual octets using bitwise shifting.
+このスクリプトはIPv4アドレスの整数変換です。`split('.').map(&:to_i).pack('C*')` で4バイトのバイナリにし、`unpack1('N')` で32ビット符号なし整数(`192.168.1.10` → `3232235786`)を得ます。ビットシフトによる各オクテットの取り出し、`pack('N').unpack('C4')` による元の文字列への復元も併せて示します。DB保存や数値ソート・範囲比較に役立つ手法です。

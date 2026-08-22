@@ -1,1 +1,1 @@
-This script defines a method that calculates the sum of all integers from 1 up to the given number. Executing `sum(10)` correctly outputs the sum of 1 through 10, which is 55.
+このスクリプトは1からnまでの総和を求めます。ファイル名に反して再帰呼び出しは使わず、while ループで末尾再帰相当の処理を書き換えた形になっています(Rubyは末尾呼び出し最適化を保証しないため)。`sum(10)` は 1+2+…+10 の 55 を出力します。

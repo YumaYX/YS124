@@ -1,1 +1,1 @@
-This script defines a Binary Search Tree (BST) in Ruby. It includes methods to construct, insert, delete, and perform inorder traversal on the self-balancing tree structure.
+このスクリプトは二分探索木(BST)を実装します。Node クラスを再帰的にたどって挿入し、削除時は葉の削除または右部分木の最小値との置き換えを行います。中順走査(左→自分→右)により常に昇順の結果が得られるため、シャッフルした `[0,1,2]` への構築・`123` の追加・`0` の削除後も整列された配列が出力されます。平衡化は行わないため、偏った挿入では性能が劣化することに注意してください。

@@ -1,1 +1,1 @@
-This script finds the common element between two Ruby arrays, `a` and `b`. It demonstrates two methods—using the intersection operator (`&`) and the `find` method—both successfully locating the shared value, `"l9ma"`.
+このスクリプトは配列 `a` と `b` の共通要素を求めます。`(a & b)` は積集合により `["l9ma", "x1p0"]` を返し、ソート後の先頭で `"l9ma"` を得ます。`a.find { |x| b.include?(x) }` は `a` の先頭から `b` に含まれる最初の要素を走査する方法で、これも `"l9ma"` を返します。要素数が多い場合は集合演算の `&` の方が効率的です。

@@ -1,1 +1,1 @@
-This script uses the `roo` gem to load an Excel file. It initializes the workbook object and then executes the `sheets` method, successfully listing the names of all available tabs.
+このスクリプトは roo でワークブックのシート一覧を取得します。`Roo::Excelx.new` で開いたオブジェクトの `sheets` メソッドが、ブック内の全シート名の配列を返します。シート名が不明なExcelを調べる最初の一手として使えます。

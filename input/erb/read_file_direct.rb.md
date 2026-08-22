@@ -1,1 +1,1 @@
-This script requires the ERB library, loads an HTML template file, and then executes the template using `result(binding)` to process variables and generate final HTML content.
+このスクリプトは read_file.rb とほぼ同じですが、`@val` を設定していません。ERB評価時点で未定義のインスタンス変数は例外ではなく nil として出力されるため、結果のHTMLには空の `<p></p>` が現れます。変数設定忘れ時の挙動を確認できる対比サンプルです。

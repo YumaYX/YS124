@@ -1,1 +1,1 @@
-This script implements a `deprecate` method on `Module`, using metaprogramming to dynamically wrap methods. It automatically issues a runtime warning when an outdated class method is called.
+このスクリプトは非推奨メソッド警告の仕組みです。Module クラスを再オープンして `deprecate` を定義し、heredoc + `module_eval` 内で元メソッドを deprecated_xxx という別名に退避させ、本体を「標準エラーへ警告を出してから別名を呼ぶ」ラッパーへ差し替えます(対象は MyClass のインスタンスメソッド mymethod)。呼び出すと警告のうえ本来の処理が実行され、`__LINE__ + 1` 指定によりバックトレースの行番号も保たれます。

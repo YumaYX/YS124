@@ -1,1 +1,1 @@
-This script loads the JSON library. It reads the contents of `file.json` and uses `JSON.parse` to convert the JSON string into a usable Ruby Hash.
+このスクリプトは最も一般的なJSON読み込みです。`File.read` で得たJSON文字列を `JSON.parse` で解析し、文字列キーを持つハッシュ `{"key" => "value"}` を返します。parse はプリミティブ(JSON基本型)専用で、任意オブジェクト復元を許す load より安全な基本手段です。

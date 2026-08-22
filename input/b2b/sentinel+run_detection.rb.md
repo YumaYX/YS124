@@ -1,1 +1,1 @@
-This script processes an array, grouping non-empty words. It counts the number of elements in each group and prints the corresponding word (label) and the final count.
+このスクリプトは空文字列を区切りとして配列をグループ化し、番兵 `'END'` で終了を判定しながら各グループの要素数を集計します。ラベルは次の非空要素まで引き継がれ、出力は `ONE: 3` / `TWO: 2` / `THREE: 4` となります。ループ・カウンタ・ラベル更新を手書きするステートマシン的な処理の練習例です。

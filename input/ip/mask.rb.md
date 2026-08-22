@@ -1,1 +1,1 @@
-This script uses `ipaddr` to calculate and print network masks. It iterates 33 times, demonstrating how subnet masks are progressively generated, ranging from /32 down to /0.
+このスクリプトは `IPAddr#mask(i)` の挙動確認です。`/32` のアドレスに対しプレフィックス長 0〜32 を順に適用し、「プレフィックス長\tネットマスク」を33行タブ区切りで出力します(たとえば i=24 → 255.255.255.0)。CIDR長とマスク表記の対応が一目で分かります。

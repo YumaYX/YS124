@@ -1,1 +1,1 @@
-This script demonstrates using a Ruby heredoc (`<<~'EOL'`) to capture and assign a multi-line string literal. It stores the formatted text, `"string\n"`, into the variable `doc`.
+このスクリプトはヒアドキュメントの基礎です。終端識別子を引用符で囲んだ `<<~'EOL'` は式展開を無効化するため、`#{}` などもそのまま文字列として扱われます。`~`(チルダ)によりインデントは自動的に取り除かれ、doc には `"string\n"` というプレーンな文字列が入ります。

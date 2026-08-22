@@ -1,1 +1,1 @@
-This script captures the current time into a variable `t`. It then uses the `strftime` method to format this time object, extracting and displaying only the date in YYYY-MM-DD format.
+このスクリプトは現在時刻を `Time.now` で取得し、`strftime("%F")` によりISO 8601の日付部分 `YYYY-MM-DD`(例: `2026-08-22`)へ整形して表示します。`%F` は `%Y-%m-%d` の省略形です。

@@ -1,1 +1,1 @@
-This script demonstrates an interactive Ruby session. It executes the built-in `__dir__` method to check and confirm the current working directory path within the program's environment.
+このスクリプトは特殊メソッド `__dir__` の確認用です。実行中のソースファイルが置かれたディレクトリの絶対パスを返します(IRB上ではカレントディレクトリ)。相対パスの基準をファイル位置に揃えたいときに役立ちます。

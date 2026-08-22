@@ -1,1 +1,1 @@
-This script reads a CSV file, indexing unique records by a specified key. It then checks a list of target keys to detect duplicates and retrieve associated data entries from the dataset.
+このスクリプトはCSVを読み込み、指定キー(email列)ごとに行位置のインデックスをハッシュとして構築します(`store_data_location`)。重複キーは位置 0 で上書きされるため、検索時に john@example.com と maria@example.com は該当行が表示され、ken@example.com(サンプルCSVの3行目と6行目で重複)は重複と判定されます。`main if __FILE__ == $PROGRAM_NAME` による直接実行ガードも示しています。

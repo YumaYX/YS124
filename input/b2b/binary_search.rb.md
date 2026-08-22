@@ -1,1 +1,1 @@
-This script defines the `binary_search` function. It efficiently finds the index of a target element within a pre-sorted array using the standard binary search algorithm.
+このスクリプトは二分探索を実装します。探索範囲の中央値との比較を繰り返し、一致すればインデックス、範囲が尽きれば -1 を返します。事前にソート済みであることが前提で、数値配列の `34`(インデックス2)や都市名配列の `"sapporo"`(インデックス6)を高速(O(log n))に見つけられます。

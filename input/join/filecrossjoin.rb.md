@@ -1,1 +1,1 @@
-This script processes command-line arguments, reading multiple text files and then combining the corresponding lines into a single, comma-separated output stream, effectively creating tabular data from various sources.
+このスクリプトは複数ファイルの行をクロス結合する想定のコードです。ARGVで渡された各パスを `readlines(chomp: true)` で行配列に読み込み、`first.product(*rest)` にブロックを渡して全組み合わせをカンマ区切りで出力します。ただし現状は発表用に `("a".."b")` などのハードコードデータで上書きされており、実行すると 2×2×2 の8行が出力されます。
